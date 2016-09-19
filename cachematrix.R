@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## Return a list with functions which will be called in cacheSolve
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Call the functions and return a cache if previously calculated and calculate and save if not.
 
 cacheSolve <- function(x, ...) {
     m <- x$getinvert()
